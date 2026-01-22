@@ -1,0 +1,22 @@
+{
+  "name": "claude-skills-marketplace",
+  "owner": {
+    "name": "AtomiCloud",
+    "email": "speedykrab98@gmail.com"
+  },
+  "metadata": {
+    "description": "A curated collection of Claude skills to enhance your AI assistant capabilities",
+    "version": "1.0.0",
+    "pluginRoot": "./skills"
+  },
+  "plugins": [
+    {
+      "name": "skill-creator",
+      "source": "./skills/skill-creator",
+      "description": "Guide for creating effective Claude Agent Skills. Use when the user wants to create a new skill, needs help writing SKILL.md files, or asks about skill best practices.",
+      "version": "1.0.0",
+      "category": "development",
+      "keywords": ["skill-development", "meta", "documentation", "guide"]
+    }
+  ]
+}
